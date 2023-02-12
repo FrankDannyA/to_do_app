@@ -14,7 +14,11 @@ class HomePage extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          TodoTile(),
+          TodoTile(
+            isComleted: true,
+            taskName: 'Create To Do app',
+            onChanged: (p0) {},
+          ),
         ],
       ),
     );
